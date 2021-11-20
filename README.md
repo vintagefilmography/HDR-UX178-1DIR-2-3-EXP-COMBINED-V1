@@ -53,16 +53,15 @@ Then click on Trigger buton a few times.
 It will go from red to white. Leave it white for free run.  
 Click Start.  
 The camera preview will be displayed in the preview window.  
-Click on ZoomIn and ZoomOut buttons and set the zoom as needed.
-Click on Start button.
+Click on ZoomIn and ZoomOut buttons and set the zoom as needed.  
 Click on Settings button.  
 The familiar camera settings will pop up.  
 Set the color, partial scan etc  
-Turn auto exposure on the exposure tab.
-Set auto reference on the exposure tab for bright image. Should be overexposed for HDRto work properly.  
-Turn auto exposure off. 
-Click on OK.  
-The window will close. 
+Turn auto exposure off the exposure tab. The HDR runs in manual exposure. 
+For 2EXP set the exposure somewhat overexposed so that the shadows are visible. 
+Set Exp Dec to the number of stops times 10. I.e. for 1 stop decrement use number 10.
+Do a test run to see if the decremnet is large enough to reduce the overexposure of bright areas.  
+You can leave the settings window open or you can close it if no more adjustments are anticipated.
 Click again on the Start button.
 It should go white.  
 Click on SaveConf button to save the device settings.  
@@ -77,7 +76,7 @@ Hit Load Exp to load the exposure value from the camera to the app.
 Hit Disp Exp to see the actual exposure. This can be done at any point during scan.
 Most of other settings can be changed in Live mode however.  
 The SaveTiff button also can be set in Live mode.  
-If active it will switch from default Jpeg format to Tiff.  
+If SaveTiff button is active it will switch from default Jpeg format to Tiff.  
 Click on Exp Dec arrows to set the exposure decrement in F stops. You can also enter it directly by typing in a  
 decimal number. For example 3.1 translates into 3.1 stops  exposure decrement or 1/(2^3.1) multiplier.      
 Around 3 stopsseems to work good.  
