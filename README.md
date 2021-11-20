@@ -27,24 +27,28 @@ REWIND OFF - 2EXP mode
 REWIND ON - 3EXP mode  
  
 Note: Hawkeye board V12 or higher and MSP FW are required for proper HDR operation to 
-provide four camera triggers for a single external trigger. 
-https://github.com/vintagefilmography/msp430/blob/master/freq_gen_12_hdr_turbo_ux178_v1.zip  
-This is the windows software that runs hdr on the Wolverine scanner that has the Hawkeye mod.  
-The software is written in Visual Basic and it connects to the camera and waits for the image ready event.  
-After the event is receied the sw stores the first image at normal exposure then lowers the camera exposure for the second image.   
-When the second event is received it stores the second image.   
-The process then repeats.  
-This single directory version stores the images into a single directory in oppose to two.  
-The directory path is set by the Path button.   
-The image numbering will be sequential. Odd numbers for bright images and even for the dark images.
-The hawkeye MSP430 firmware has a mod to trigger the camera 4 times for each external trigger.  
-To run the sw go to the  
-.../bin/Release 
-dir and run the HDR1.exe file.  
+provide four or six camera triggers for a single external trigger. 
+The firmware is available here. Download the workspace_v9.zip file and extract it
+somewhere in the local drive.  
+Then in Code Composer use File->Switch Workspace to load in this new wokspace.
+The project that you want to build is  
+freq_gen_12_hdr_ux178_2-3exp  
+ 
+Usage:  
+To run the sw download the files from this repo and go to the  HDR-UX178-1DIR-2-3-EXP-COMBINED-V1\HDR
+.../bin/Release  
+and run the HDR1.exe file.
 The Device Settings window will pop up.  
 Select the device and resolution as required and click OK.  
 The Device Window will close and the app window will pop up.  
-Select the destination directory  clicking on the Path button.    
+
+The directory path is set by the Path button. 
+![image](https://user-images.githubusercontent.com/48537944/142740218-de126ce4-3115-4003-9254-dea9df48174f.png)
+
+The image numbering will be sequential. If you want the start number different than 1  
+then enter it in the Img Number field or use the arrows.  
+This can come in handy if the scan is stopped and restarted.
+   
 Then click on Trigger buton a few times.  
 It will go from red to white. Leave it white for free run.  
 Click Start.  
