@@ -25,7 +25,10 @@ With the RUN switch ON, the REWIND switch has no affect normally, but in this ve
 is used to switch between the 2EXP and 3EXP mode.  
 REWIND OFF - 2EXP mode  
 REWIND ON - 3EXP mode  
- 
+Important note:
+When stopping the Hawkeye turn the RUN switch off before the REWIND switch. Failing  
+to do that may result in the last dark image missing.
+
 Note: Hawkeye board V12 or higher and MSP FW are required for proper HDR operation to 
 provide four or six camera triggers for a single external trigger. 
 The firmware is available here. Download the workspace_v9.zip file and extract it
