@@ -91,7 +91,7 @@ The app is now ready for images.
 Run the scanner.
 
 Scan Restarts
-This app has the restart capability i.e. the scan can be stopped, the settings can be changed and then teh scan can 
+This app has the restart capability i.e. the scan can be stopped, the settings can be changed and then the scan can 
 be continued from the point where it stopped. The Hawkeye firmware stays synched with the app so that the HDR sequence
 stays in sync.
 To restart the scan just turn off the Hawkeye RUN button. Turn off the app Start Button, Trigger and ImgSave in that  
