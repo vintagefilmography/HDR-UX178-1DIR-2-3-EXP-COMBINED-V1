@@ -46,7 +46,8 @@ Select the device and resolution as required and click OK.
 The Device Window will close and the app window will pop up.  
 
 The directory path is set by the Path button. 
-![image](https://user-images.githubusercontent.com/48537944/142740218-de126ce4-3115-4003-9254-dea9df48174f.png)
+![Snap11](https://user-images.githubusercontent.com/48537944/143714863-9bede78c-5a75-41da-941d-d05f7d7bab9e.jpg)
+
 
 The image numbering will be sequential. If you want the start number different than 1  
 then enter it in the Img Number field or use the arrows.  
