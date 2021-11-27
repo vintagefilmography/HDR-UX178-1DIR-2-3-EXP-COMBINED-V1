@@ -87,7 +87,20 @@ It should turn red.(Keep an eye on this button when testing.
 It could flood your drive with images if trigger is left on FreeRun.  
 Click on Start Button.  
 The app is now ready for images.  
-Run the scanner.  
+Run the scanner.
+
+Scan Restarts
+This app has the restart capability i.e. the scan can be stopped, the settings can be changed and then teh scan can 
+be continued from the point where it stopped. The Hawkeye firmware stays synched with the app so that the HDR sequence
+stays in sync.
+To restart the scan just turn off the Hawkeye RUN button. Turn off the app Start Button, Trigger and ImgSave in that  
+order.  Turn Start back on and adjust the exposure etc to your liking.  
+Once done turn Start off and then Trigger and ImgSave back on and finally Start back on.
+Turn the Hawkeye RUN switch back on and the scan will resume back from where it stopped the
+HDR image sequence will continue ininterrupted.  
+It should be noted that the path and the image numbering sequence can be also changed before the Restart if 
+that is required but should not be done while the can is running.  
+
 BTW - you can run the scanner without running the Hawkeye. With the Hawkeye led on you can hit the  
 sw trigger and that will save the images.  
 ![Snap9](https://user-images.githubusercontent.com/48537944/142745329-11937d96-d16c-446e-a617-2d46aa8a0a26.jpg)
